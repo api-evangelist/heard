@@ -1,7 +1,26 @@
 aid: heard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heard.png
 name: Heard
-description: 'Heard is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Heard (Heard Technologies, Inc.) is the financial management platform built specifically
+  for therapists and wellness practitioners in private practice. Founded in 2019 and based in Seattle,
+  Washington, Heard pairs easy-to-use software with a dedicated human team to handle bookkeeping,
+  taxes, payroll, and business banking in a single subscription, so licensed mental health and allied
+  health clinicians can focus on their clients. Heard serves solo and single-owner group practices
+  across the United States, from newer sole proprietors to established S corporations, and connects
+  with tools practices already use such as SimplePractice, TherapyNotes, Headway, Jane App, Stripe,
+  and Square. Heard exposes no public developer API; this API Evangelist profile captures the company
+  identity, its public web properties, and the published llms.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/heard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Bookkeeping
+- Accounting
+- Taxes
+- Payroll
+- Banking
+- Financial Services
+- Therapists
+- Private Practice
+- Mental Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.joinheard.com/
+- type: GettingStarted
+  url: https://www.joinheard.com/how-it-works
+- type: Support
+  url: https://support.joinheard.com/hc/en-us
+- type: Pricing
+  url: https://www.joinheard.com/pricing
+- type: SignUp
+  url: https://dashboard.joinheard.com/signup
+- type: Blog
+  url: https://www.joinheard.com/resources/articles
+- type: TermsOfService
+  url: https://www.joinheard.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.joinheard.com/privacy
+- type: LLMsTxt
+  url: llms/heard-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
