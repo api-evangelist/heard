@@ -50,7 +50,7 @@ tags:
 - Tax
 - Payroll
 - Banking
-- Financial-Services
+- Financial Services
 - Therapists
 - Private Practice
 - Mental Health
@@ -66,6 +66,7 @@ tags_raw:
 - Therapists
 - Private Practice
 - Mental Health
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
