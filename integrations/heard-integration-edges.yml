@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/heard/integrations
+- https://n8n.io/integrations/heard/
+- https://composio.dev/toolkits/heard
+- https://monid.ai/tools/heard
+checked:
+- https://composio.dev/toolkits/heard
+- https://monid.ai/tools/heard
+- https://n8n.io/integrations/heard/
+- https://zapier.com/apps/heard/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
